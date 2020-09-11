@@ -6,9 +6,9 @@
   "scripts": {
     "start": "node server.js",
     "server": "nodemon server.js",
-    "client": "npm start --prefix client",
-    "clientinstall": "npm install --prefix client",
-    "dev": "concurrently \"npm run server\" \"npm run client\""
+    "image-slider": "npm start --prefix image-slider",
+    "image-sliderinstall": "npm install --prefix image-slider",
+    "dev": "concurrently \"npm run server\" \"npm run image-slider\""
   },
   "keywords": [],
   "author": "",
