@@ -19,7 +19,7 @@ if (process.env.NODE_ENV === "production") {
     app.use(express.static("image-slider/build"));
   
     // App get
-    app.get("*", (req, res) =>
+    app.get("/", (req, res) =>
       res.sendFile(path.resolve(__dirname, "image-slider", "build", "index.html"))
     );
   }
