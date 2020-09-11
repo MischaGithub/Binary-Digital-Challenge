@@ -1,9 +1,9 @@
-import React, { useRef, useEffect, useContext , useState} from "./node_modules/react";
-import { Slide } from "./node_modules/react-slideshow-image";
+import React, { useRef, useEffect, useContext , useState} from "react";
+import { Slide } from "react-slideshow-image";
 import SlideContext from "../../context/Slides/slideContext";
-import SlideItem from "./SlideItem";
+import SlideItem from "./slideItem";
 import Spinner from "../layout/Spinner";
-import { UncontrolledTooltip } from "./node_modules/reactstrap";
+import { UncontrolledTooltip } from "reactstrap";
 
 
 const Slider = () => {
