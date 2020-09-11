@@ -9,7 +9,7 @@
     "image-slider": "npm start --prefix image-slider",
     "image-sliderinstall": "npm install --prefix image-slider",
     "dev": "concurrently \"npm run server\" \"npm run image-slider\"",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix image-slider && npm run build --prefix image-slider"
+    "heroku-postbuild": "cd image-slider && npm install && npm run build"
     
   },
   "keywords": [],
