@@ -2,9 +2,13 @@
   "name": "bnry-challenge",
   "version": "1.0.0",
   "description": "Infinite Image Slider",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "clientinstall": "npm install --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "keywords": [],
   "author": "",
